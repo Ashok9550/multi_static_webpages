@@ -1,0 +1,43 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+     <title>Document</title>
+     <link rel="stylesheet" href="../table/assinment_2/assinment_3/practice/fontawesome-free-6.2.1-web/fontawesome-free-6.2.1-web/css/all.css">
+     <link rel="stylesheet" href="{% static 'css/main.css' %}">
+    
+</head>
+<body>
+    <header id="he1">
+            <i class="fa-sharp fa-solid fa-leaf" id="i1">J<a href="" id="a1">spiders</a></i> 
+            <a href="{% url 'sign_in' %}"><input type="submit" value="sin in" id="in1"></a>
+            <a href="{% url 'sign_up' %}"><input type="submit" value="sin up" id="in3"></a>
+            <i class="fa-solid fa-phone></i>">
+    </header>
+    <header id="he2">
+    <nav id="nav1">
+        <i class="fa-regular fa-envelope" id="ii"></i><a href="" id="na1">jspiders12@gmail.com</a>
+        <a href="" class="same1"><input type="button" value="Contact" class="same" id="sa1"></a>
+        <a href="{% url 'course' %}" class="same1"><input type="button" value="Courses" class="same"></a>
+        <a href="" class="same1"><input type="button" value="Trainers" class="same"></a>
+        <a href="" class="same1"><input type="button" value="Help" class="same"></a>
+    </nav>
+</header>
+<section>
+    <article>
+        <h1 id="h1">
+            Welcome to <br>
+            Jspiders <br>
+         </h1>
+    </article>
+</section>
+<span>
+    <img src="{% static 'images/im1.jpeg' %}"  id="im1">
+</span>
+<span><img src="{% static 'images/im2.webp' %}" alt="" id="im2"></span>
+<span><img src="{% static 'images/im3.jpg' %}" alt="" id="im3"></span>
+<div>
+    
+</div>
+</body>
+</html>

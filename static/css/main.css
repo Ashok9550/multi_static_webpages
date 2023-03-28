@@ -1,0 +1,105 @@
+body{
+    margin: 0px;
+    background-image:url("https://i.ytimg.com/vi/ngQ54WfEBUs/maxresdefault.jpg");
+    background-size:cover;
+}
+ #a1{
+        text-decoration: none;
+        color: green;
+        font-size: 20px;
+    }
+    #in1{
+        margin-left:1150px;
+        background-color:green;
+        color: ghostwhite;
+    }
+    #in3{
+        background-color:green;
+        color: ghostwhite;
+    }
+    #he1{
+        background-color: ghostwhite;
+        color:orange;
+        height: 45px;
+
+    }
+    #i1{
+        margin-top: 15px;
+        font-size: 25px;
+
+    }
+    #a2{
+        text-align: none;
+        margin-left: 740px;
+        color: ghostwhite;
+        text-decoration: none;
+        
+    }
+    #i2{
+        text-decoration: none;
+        font-size: 30px;
+        color: aqua;
+    }
+    #he2{
+        background-color:  black;
+        margin-top: 2px;
+        height: 45px;
+    }
+    #in2{
+        width: 100px;
+        height: 40px;
+        background-color: rgb(24, 3, 64);
+        color: ghostwhite;
+    }
+    #a3{
+        text-decoration: none;
+        color: ghostwhite;
+    }
+    #h1{
+        text-align: center;
+        margin-top: 90px;
+        font-size: 80px;
+        font-family: 'Courier New', Courier, monospace;
+        color:aqua;
+        height: 200px;
+    }
+    #im1{
+        width: 400px;
+        padding: 10px;
+        margin-left: 100px;
+        margin-top: 50px;
+    }
+    #im2{
+        width: 400px;
+        padding: 10px;
+    }
+    #im3{
+        width: 400px;
+        padding: 10px;
+    }
+    .same{
+        width: 70px;
+        height: 35px;
+        color: ghostwhite;
+        background-color: green;
+        text-decoration: none;
+
+    }
+    #sa1{
+        margin-left: 830px;
+    }
+    .same1{
+        padding: 10px;
+    }
+    .same:hover{
+        background-color: lightgreen;
+        color: black;
+    }
+    #ii{
+        color:ghostwhite;
+    }
+    #na1{
+        font-family: 'Courier New', Courier, monospace;
+        text-decoration: none;
+        color: ghostwhite;
+    }

@@ -1,0 +1,59 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="../../table/assinment_2/assinment_3/practice/fontawesome-free-6.2.1-web/fontawesome-free-6.2.1-web/css/all.css">
+    <link rel="stylesheet" href="{% static 'css/sign_in.css' %}">
+    <style>
+        body{
+            background-image: url("{% static 'images/im4.jpeg' %}");
+        }
+    </style>
+</head>
+<body>
+    <header id="he1">
+        <nav id="nav1">
+            <a href="{% url 'main' %}" id="a1"><i class="fa-solid fa-house-user" id="i1"></i><input type="button" value="Home" id="bt2"></a>
+            <a href="" id="a2" ><i class="fa-solid fa-circle-info" id="i2"></i><input type="button" value="Help" id="bt3"></a>
+        </nav>
+    </header>
+    <div>
+        <form action="">
+            <fieldset style="background-image: {% static 'images/im4.jpeg' %};"><legend>sign in</legend>
+        <table>
+            <span id="span2">
+                Welcome to 
+            </span>
+            <span id="span1">J</span>
+            <span id="span3">spiders</span>
+        
+            <h2>
+                    please enter the details given below
+                </h2>
+            <tr id="tr">
+                <td colspan="2">
+                    <input type="text" name="" id="int1" placeholder="ENTER USER NAME">
+                </td>
+            </tr>
+            <tr><td colspan="2" >
+                <input type="password" name="" id="int1" placeholder="ENTER YOUR PASSWORD">
+            </td>
+            </tr>
+            <tr>
+                <span><td><input type="checkbox" name="" id="int2">Remember Me</td></span>
+                <span><td><a href="{% url 'forgoted' %}" >Forgeted password?</a></td></span>
+            </tr>
+            <tr>
+                <td colspan="2"><input type="submit" value="sign in" id="bt1"></td>
+            </tr>
+        </table>
+        </form>
+        </fieldset>
+        
+    </div>
+</body>
+</html>

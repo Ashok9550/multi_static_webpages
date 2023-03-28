@@ -1,0 +1,109 @@
+body{
+    margin: 0;
+    padding: 0;
+    background-image: url("https://images.pexels.com/photos/164005/pexels-photo-164005.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1");
+}
+form{
+    width: 450px;
+    height: 0px;
+    margin-left: 37%;
+    margin-top: 13%;
+   
+    
+}
+table{
+    margin-left:50px ;
+    padding-top: 20px;
+}
+#int1{
+    width: 300px;
+    margin-bottom: 20px;
+    height: 30px;
+    border-radius: 25px;
+}
+#int2{
+    width: 20px;
+    margin-bottom: 20px;
+}
+
+
+a{
+    text-decoration: none;
+    margin-bottom: 10px;
+    color: red;
+}
+#tr1{
+    width: 30px;
+}
+#bt1{
+    width: 308px;
+    height: 40px;
+    border-radius: 25px;
+    background: linear-gradient(45deg,rgb(86, 233, 86),ghostwhite);
+}
+#span1{
+    color: orange;
+    font-size: 28px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+#span2{
+    font-size: 25px;
+}
+#span3{
+    font-size: 25px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+fieldset{
+    border-radius: 25px;
+    background-image: url("{% static 'images/im4.jpeg' %}");
+}
+#nav1{
+    background-color: black;
+    height: 40px;
+}
+#i1{
+    color: green;
+    margin-top: 15px;
+    margin-left: 2px;
+    padding-top: 1px;
+   
+}
+#a1{
+    width:100px;
+    margin-top: 15px;
+    margin-left: 5px;
+}
+#bt2{
+    background-color: green;
+    color: ghostwhite;
+    width: 70px;
+    height: 20px;
+    margin-bottom: 15px;
+}
+#bt2:hover{
+    background-color: lightgreen;
+    color: black;
+}
+#i1:hover{
+    background-color: lightgreen;
+}
+#a2{
+    margin-left: 1200px;
+}
+#bt3{
+    background-color: green;
+    color: ghostwhite;
+    width: 70px;
+    height: 20px;
+    margin-bottom: 15px;
+}
+#bt3:hover{
+    background-color: lightgreen;
+    color: black;
+}
+#i2:hover{
+    background-color: lightgreen;
+}
+#i2{
+    color: green;
+}
